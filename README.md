@@ -1,5 +1,6 @@
-# Intro to GitHub Classroom
-This example project is written in Python, and tested with [pytest](https://www.python.org/).
+# Python Refresher
+
+In this assignment, you'll be refreshing your Python skills by completing a series of exercises that cover the basics of Python programming. You'll be writing basic Python scripts to demonstrate your understanding of import statements, variables and data types, functions and methods, control flow statements, lists and dictionaries, modules and packages, classes and objects, file handling, error and exception handling, and string formatting.
 
 ## The assignment
 
@@ -43,7 +44,7 @@ File handling involves reading from and writing to files, allowing data to be sa
 
 ### ⚠️ Error and Exception Handling
 
-Error and exception handling involves capturing and responding to errors or exceptional conditions that occur during program execution. Create a Python script named `error_handling.py` that tries to open a file named `nonexistent.txt` for reading and catches the `FileNotFoundError`, printing "File not found." if the file does not exist.
+Error and exception handling involves capturing and responding to errors or exceptional conditions that occur during program execution. Create a Python script named `error_handling.py` that tries to open a file named `nonexistent.txt` for reading and catches the `FileNotFoundError`, printing `"File not found."` if the file does not exist.
 
 ### ✍️ String Formatting
 
@@ -51,7 +52,7 @@ String formatting involves creating strings by embedding expressions or variable
 
 ## Autograding (GitHub Actions)
 
-As a reminder, to trigger autograding through GitHub Actions, open the "Source Control" button on the left sidebar, write a commit message, and commit and push your changes to GitHub.
+As a reminder, to trigger autograding through GitHub Actions within VS Code, open the "Source Control" extension on the left sidebar, write a commit message, and commit and push your changes to GitHub.
 
 ![](commit-and-push.gif)
 
