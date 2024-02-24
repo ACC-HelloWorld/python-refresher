@@ -18,6 +18,10 @@ Import statements are used to include external Python modules or libraries in a 
 
 Variables are named locations used to store data, and data types define the kind of data a variable can hold, such as integers, strings, lists, and dictionaries. Create a Python script named `variables_data_types.py` that defines a variable `age` with an integer value of `25` and a variable `name` with a string value of `"John"`. Print each of these with Python's built-in `print` function (e.g., `print(age, name)`).
 
+### Comments
+
+Comments are used to document code, providing context and explanations for future readers (including yourself). Comments in Python begin with the `#` character. Create a Python script named `comments.py` and add the following comment: `This is a comment`.
+
 ### 🧩 Functions and Methods
 
 Functions are reusable blocks of code that perform a specific task, and methods are similar to functions but are associated with object instances or classes. Create a Python script named `functions_methods.py` that defines a function `greet` which takes a name as an argument and prints "Hello, [name]!" where `[name]` is the argument passed to the function. Call this function with the name `"Alice"`.
@@ -49,6 +53,9 @@ Error and exception handling involves capturing and responding to errors or exce
 ### ✍️ String Formatting
 
 String formatting involves creating strings by embedding expressions or variables within them, often using techniques like f-strings for readability and conciseness. Create a Python script named `string_formatting.py` that defines two variables, `fruit` with the value `"apple"` and `count` with the value `5`. Print a message using f-string formatting: "There are 5 apples."
+
+
+<!-- Other possibilities: Python comments, indentation rules, sets, tuples, keywords/reserved words, pep8, mutability, procedure-oriented vs. object-oriented, container operations, usage of pip, numpy basics,  -->
 
 ## Autograding (GitHub Actions)
 

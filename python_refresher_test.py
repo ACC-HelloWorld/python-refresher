@@ -21,6 +21,12 @@ def test_variables_data_types(capsys):
     assert "25" in captured.out and "John" in captured.out
 
 
+def test_comments(capsys):
+    exec(open("comments.py").read())
+    captured = capsys.readouterr()
+    assert "This is a comment" in captured.out
+
+
 def test_functions_methods(capsys):
     exec(open("functions_methods.py").read())
     captured = capsys.readouterr()
