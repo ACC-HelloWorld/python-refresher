@@ -1,9 +1,2 @@
   -e . # package from this repo
-#  numpy
-#  scipy
-#  pandas
-#  matplotlib
-#  matplotlib-inline
-#  ipython
-#  ipykernel
  pytest
